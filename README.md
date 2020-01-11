@@ -1,18 +1,10 @@
-# WARNING: THIS PROJECT IS NOT MAINTAINED ANYMORE. Feel free to fork and work on it.
-
-# Retropie-Manager
-Recalbox-Manager fork for RetroPie 4.x
+# Retropie Manager
+for RetroPie 4.x
 
 ![alt tag](https://github.com/RetroPie/RetroPie-Manager/blob/retropie/screenshot.png)
 
-# About
-
-This a Recalbox-Manager fork aimed to be used with RetroPie 4.x.
-
-Original repository: https://github.com/recalbox/recalbox-manager
-
 # Features
-With Retropie-Manager you can
+With Retropie Manager you can
 - Monitor the system health and disk space
 - Edit the Emulation Station config file
 - Edit the RetroArch config file
@@ -26,8 +18,7 @@ With Retropie-Manager you can
 - In this release the virtual gamepad page has been removed.
 - It doesn't support subdirectories at ROMs dir (as reported [here](https://github.com/RetroPie/RetroPie-Manager/issues/5))
 
-
-# Install
+# Installation
 
 ## RetroPie-Setup script
 
@@ -63,7 +54,7 @@ You must be at the RetroPie-Manager's directory to use the `rpmanager.sh` like i
 ```sh
 ./rpmanager.sh --start
 ```
-Open your browser and go to **http://your_retropie_ip:8000/**
+Open your browser and go to **http://retropie:8000/**
 
 **Stop**
 ```sh
@@ -133,5 +124,3 @@ make install
 ```
 
 # Known bugs
-
-- (FIXED) You'll get a 404 error trying to delete roms
